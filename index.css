@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+}
+.wrapper{
+    height: auto;
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    height: 150px;
+    width: 1024px;
+    background-image: url(img/header.jpg);
+}
+.logo{
+    height: 150px;
+    width: 224px;
+    /* background-color: rgb(212, 16, 16); */
+    float: left;
+}
+.title{
+    height: 150px;
+    width: 800px;
+    /* background-color: chartreuse; */
+    margin-left: 224px;
+}
+.title_head{
+    color: white;
+    font-size: 50px;
+    padding-top: 35px;
+    margin: 0px 25px;
+}
+.menu{
+    height: 50px;
+    width: 1024px;
+    background-color: lightgrey;
+    /* background-color: chocolate; */
+}
+ul.menu
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.menu li a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	float: left;
+	margin: 5px 5px;
+	padding: 9px 10px;
+	background-color: #64c4dc;
+
+}
+ul.menu li a:hover,ul.menu li a.active
+{
+	background-color: #f42d70;
+}
+.content{
+    height: 528px;
+    width: 1024px;
+    /* background-color: rgb(76, 3, 245); */
+}
+.slider{
+    height: 250px;
+    width: 1024px;
+    /* background-color: darkgreen; */
+}
+.welcome{
+    height: 278px;
+    width: 624px;
+    /* background-color: darkorange; */
+    float: left;
+}
+.welcome_head{
+    color:#f42d70;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.para{
+    color: grey;
+    padding-top: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.news{
+    height: 278px;
+    width: 400px;
+    /* background-color: darkslateblue; */
+    margin-left: 624px;
+}
+.news_head{
+    color: #64c4dc;
+    margin-left: 20px;
+}
+.news_list{
+    padding-top: 10px;
+}
+.marquee1{
+    background-color: #f42d70;
+    width: 300px;
+    height: 40px;
+    direction: rtl;
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+.aboutus{
+    height: 70px;
+    width: 1024px;
+    background-color: white;
+}
+.aboutus_head{
+    color: #f42d70;
+    padding-top: 22px;
+}
+.aboutcontent{
+    height: 170px;
+    width: 1024px;
+    color: gray;
+    font-size: 17px;
+    /* background-color: lightseagreen; */
+}
+.ourvision{
+    height: 50px;
+    width: 1024px;
+    /* background-color: lime; */
+}
+.vision_head{
+    color: #64c4dc;
+    padding-top: 15px;
+}
+.visioncontent{
+    height: 138px;
+    width: 1024px;
+    color: gray;
+    font-size: 17px;
+    /* background-color: orange; */
+}
+.webdesign1{
+    height: 210px;
+    width: 500px;
+    /* background-color: red; */
+    background-color: rgb(221, 214, 214);
+    float: left;
+    color: rgb(63, 63, 63);
+}
+.web1_head{
+    color: #64c4dc;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.web1_content{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: cursive;
+    padding-top: 10px;
+}
+.web1_footer{
+    padding-top: 20px;
+    margin-left: 350px;
+}
+.btn{
+    font-size: 18px;
+    background-color: #f42d70;
+    color: white;
+    border-radius: 10px;
+}
+.webdesign2{
+    height: 210px;
+    width: 500px;
+    /* background-color: rgb(7, 224, 231); */
+    margin-left: 524px;
+    background-color: rgb(221, 214, 214);
+    color: rgb(63, 63, 63);
+}
+.webdesign3{
+    height: 210px;
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(221, 214, 214);
+    color: rgb(63, 63, 63);
+}
+.webdesign4{
+    height: 210px;
+    width: 500px;
+    margin-left: 524px;
+    margin-top: 20px;
+    background-color: rgb(221, 214, 214);
+    color: rgb(63, 63, 63);
+}
+.photo1{
+    height: 210px;
+    width: 330px;
+    /* background-color: tan; */
+    float: left;
+    opacity: 0.5;
+}
+.photo1:hover{
+    opacity: 1;
+}
+.photo2{
+    height: 210px;
+    width: 330px;
+    /* background-color: rgb(140, 159, 210); */
+    margin-left: 17px;
+    float: left;
+    opacity: 0.1;
+}
+.photo2:hover{
+    opacity: 0.9;
+}
+.photo3{
+    height: 210px;
+    width: 330px;
+    /* background-color: rgb(185, 109, 9); */
+    margin-left: 694px;
+    opacity: 1;
+}
+.photo3:hover{
+    opacity: 0.1;
+}
+.photo4{
+    height: 210px;
+    width: 330px;
+    /* background-color: tan; */
+    float: left;
+    margin-top: 19px;
+}
+.photo5{
+    height: 210px;
+    width: 330px;
+    /* background-color: tan; */
+    float: left;
+    margin-left: 17px;
+    margin-top: 19px;
+}
+.photo6{
+    height: 210px;
+    width: 330px;
+    /* background-color: tan; */
+    margin-left: 694px;
+    margin-top: 19px;
+}
+.n{
+    font-size: 30;
+}
+.footer{
+    height: 40px;
+    width: 1024px;
+    background-color: grey;
+}
+.footer_content
+{
+	color: white;
+	padding: 10px;
+}

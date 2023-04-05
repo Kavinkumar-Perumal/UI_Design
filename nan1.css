@@ -1,0 +1,30 @@
+.name{
+    height: 100px;
+}
+.marquee1{
+    background-color: #f42d70;
+    width: 300px;
+    height: 40px;
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    onmouseover: this.stop();
+
+}
+.line{
+    display:block; 
+    width:100%; 
+    border-bottom:1px solid red; 
+    margin-top:25px; 
+    text-align:left;
+}
+.line h2{
+    font-size:15px; 
+    text-align:center; 
+    position:relative; 
+    top:10px; 
+    padding:0 15px; 
+    display:inline-block; 
+    background:white;
+}
